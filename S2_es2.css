@@ -1,0 +1,249 @@
+body {
+  padding-left: 15%;
+}
+
+.logo {
+  width: 70px;
+  margin-inline: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.b1,
+.b2,
+.b4 {
+  width: 40px;
+}
+
+.lente,
+.campanella {
+  width: 100%;
+}
+
+.b3 {
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.b4 {
+  height: 40px;
+  border-radius: 25px;
+  background-color: red;
+}
+
+.tbianca {
+  color: white;
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+  margin-inline: 10px;
+}
+
+button {
+  background-color: white;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: grey solid;
+}
+
+.titolo {
+  display: flex;
+}
+
+.cont-sinistra {
+  width: 70%;
+  flex-direction: column;
+  margin-inline: 30px;
+  flex-wrap: wrap;
+}
+
+.divtitolisx {
+  display: flex;
+  height: 120px;
+  align-items: flex-end;
+  border-bottom: solid gray;
+  margin-bottom: 10px;
+}
+.divtitolisx:hover h4 {
+  color: black;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  height: 15%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.img-art {
+  height: 70%;
+  aspect-ratio: 1.5/1;
+  object-fit: cover;
+}
+
+.cont-sinistra h4 {
+  margin-inline: 20px;
+  color: grey;
+}
+
+.notizia {
+  width: 70%;
+  height: 100%;
+  margin-inline: 20px;
+}
+
+
+
+
+
+
+.info-notizia {
+  display: flex;
+  justify-content: space-between;
+}
+
+.puntini {
+  width: 100%;
+}
+
+.b5 {
+  width: 30px;
+  height: 30px;
+  border: white solid;
+}
+.h3,
+p {
+  color: grey;
+  margin: 5px;
+}
+.cont-sinistradestra {
+  display: flex;
+  width: 100%;
+}
+
+.cont-destra {
+  width: 40%;
+  flex-wrap: wrap;
+  border-left: gray solid;
+}
+
+.divloghidx,
+.divtwitter,
+.divconnect,
+.divlink {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.divloghidx {
+  margin-top: 50px;
+}
+.logo2,
+.logo-uccello {
+  width: 50px;
+  height: 50px;
+}
+.divtwitter {
+  text-align: center;
+}
+.divconnect {
+  margin-top: 30px;
+  text-align: center;
+}
+.logo-uccello2 {
+  width: 20px;
+}
+.b6 {
+  display: flex;
+  width: 40%;
+  height: 30px;
+  border-radius: 20px;
+}
+a {
+  color: grey;
+}
+.divlink {
+  border-bottom: grey solid;
+  margin-bottom: 50px;
+}
+
+.divtopics {
+  display: flex;
+}
+.divtop {
+  margin-left: 20px;
+}
+
+.divtop button {
+  border-radius: 20px;
+  background-color: rgb(205, 200, 200);
+  border: rgb(205, 200, 200) solid;
+  margin-inline: 5px;
+  margin-top: 5px;
+}
+.lista-follower {
+  flex-direction: column;
+  margin-top: 50px;
+}
+.imgfollower {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.cardA,
+.cardB,
+.cardC {
+  width: 80%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.lista-follower button {
+  border-radius: 20px;
+  margin-inline: 20px;
+  color: gray;
+  border: gray solid;
+}
+.lista-follower h3 {
+  margin: 0%;
+}
+.divsaved {
+  margin-top: 50px;
+}
+.persona {
+  display: flex;
+}
+h5 {
+  color: rgb(101, 221, 101);
+}
+.opzioni {
+  display: flex;
+}
+.lista-follower,
+.divsaved,
+.opzioni {
+  margin-left: 20px;
+}
+h4 {
+  margin-left: 20px;
+}
+button:hover {
+  background-color: rgb(182, 175, 175);
+}
